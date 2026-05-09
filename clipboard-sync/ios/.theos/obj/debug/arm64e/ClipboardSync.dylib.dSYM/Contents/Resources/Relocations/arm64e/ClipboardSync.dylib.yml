@@ -1,0 +1,61 @@
+---
+triple:          'arm64e-apple-darwin'
+binary-path:     '/Users/mac/Desktop/chuanshu/clipboard-sync/ios/.theos/obj/debug/arm64e/ClipboardSync.dylib'
+relocations:
+  - { offset: 0x1E, size: 0x8, addend: 0x0, symName: __logosLocalCtor_5abf691f, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x80 }
+  - { offset: 0x45, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$UIPasteboard$setString$', symObjAddr: 0x3D58, symBinAddr: 0x10848, symSize: 0x0 }
+  - { offset: 0xF93, size: 0x8, addend: 0x0, symName: __logosLocalCtor_5abf691f, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x80 }
+  - { offset: 0xFF3, size: 0x8, addend: 0x0, symName: ____logosLocalCtor_5abf691f_block_invoke, symObjAddr: 0x80, symBinAddr: 0x4080, symSize: 0x90 }
+  - { offset: 0x102F, size: 0x8, addend: 0x0, symName: __logosLocalInit, symObjAddr: 0x110, symBinAddr: 0x4110, symSize: 0x58 }
+  - { offset: 0x1061, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$UIPasteboard$setString$', symObjAddr: 0x168, symBinAddr: 0x4168, symSize: 0x180 }
+  - { offset: 0x115E, size: 0x8, addend: 0x0, symName: '+[ClipboardSync sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x42E8, symSize: 0x90 }
+  - { offset: 0x1177, size: 0x8, addend: 0x0, symName: _kPreferencesIdentifier, symObjAddr: 0x27C0, symBinAddr: 0xC150, symSize: 0x0 }
+  - { offset: 0x11E3, size: 0x8, addend: 0x0, symName: '+[ClipboardSync sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x42E8, symSize: 0x90 }
+  - { offset: 0x120C, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x8510, symBinAddr: 0x10858, symSize: 0x0 }
+  - { offset: 0x1221, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x8518, symBinAddr: 0x10860, symSize: 0x0 }
+  - { offset: 0x1842, size: 0x8, addend: 0x0, symName: '___31+[ClipboardSync sharedInstance]_block_invoke', symObjAddr: 0x90, symBinAddr: 0x4378, symSize: 0x50 }
+  - { offset: 0x186A, size: 0x8, addend: 0x0, symName: '-[ClipboardSync init]', symObjAddr: 0xE0, symBinAddr: 0x43C8, symSize: 0xE8 }
+  - { offset: 0x18A0, size: 0x8, addend: 0x0, symName: '-[ClipboardSync preferencesFilePath]', symObjAddr: 0x1C8, symBinAddr: 0x44B0, symSize: 0xF0 }
+  - { offset: 0x18E4, size: 0x8, addend: 0x0, symName: '-[ClipboardSync loadPreferences]', symObjAddr: 0x2B8, symBinAddr: 0x45A0, symSize: 0xDC }
+  - { offset: 0x1928, size: 0x8, addend: 0x0, symName: '-[ClipboardSync isEnabled]', symObjAddr: 0x394, symBinAddr: 0x467C, symSize: 0xC4 }
+  - { offset: 0x197A, size: 0x8, addend: 0x0, symName: '-[ClipboardSync host]', symObjAddr: 0x458, symBinAddr: 0x4740, symSize: 0xD4 }
+  - { offset: 0x19CC, size: 0x8, addend: 0x0, symName: '-[ClipboardSync port]', symObjAddr: 0x52C, symBinAddr: 0x4814, symSize: 0x128 }
+  - { offset: 0x1A3B, size: 0x8, addend: 0x0, symName: '-[ClipboardSync reloadPreferences]', symObjAddr: 0x654, symBinAddr: 0x493C, symSize: 0x100 }
+  - { offset: 0x1A81, size: 0x8, addend: 0x0, symName: '___34-[ClipboardSync reloadPreferences]_block_invoke', symObjAddr: 0x754, symBinAddr: 0x4A3C, symSize: 0xA4 }
+  - { offset: 0x1ABE, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x7F8, symBinAddr: 0x4AE0, symSize: 0x3C }
+  - { offset: 0x1AE2, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x834, symBinAddr: 0x4B1C, symSize: 0x30 }
+  - { offset: 0x1AFE, size: 0x8, addend: 0x0, symName: '-[ClipboardSync start]', symObjAddr: 0x864, symBinAddr: 0x4B4C, symSize: 0x200 }
+  - { offset: 0x1B30, size: 0x8, addend: 0x0, symName: _preferencesChangedCallback, symObjAddr: 0xA64, symBinAddr: 0x4D4C, symSize: 0x64 }
+  - { offset: 0x1B9A, size: 0x8, addend: 0x0, symName: '-[ClipboardSync stop]', symObjAddr: 0xAC8, symBinAddr: 0x4DB0, symSize: 0xA0 }
+  - { offset: 0x1BCC, size: 0x8, addend: 0x0, symName: '-[ClipboardSync networkThreadMain]', symObjAddr: 0xB68, symBinAddr: 0x4E50, symSize: 0x1FC }
+  - { offset: 0x1C28, size: 0x8, addend: 0x0, symName: '-[ClipboardSync connect]', symObjAddr: 0xD64, symBinAddr: 0x504C, symSize: 0x2D8 }
+  - { offset: 0x1C92, size: 0x8, addend: 0x0, symName: '-[ClipboardSync disconnect]', symObjAddr: 0x103C, symBinAddr: 0x5324, symSize: 0x200 }
+  - { offset: 0x1CC4, size: 0x8, addend: 0x0, symName: '-[ClipboardSync scheduleReconnect]', symObjAddr: 0x123C, symBinAddr: 0x5524, symSize: 0x114 }
+  - { offset: 0x1D0A, size: 0x8, addend: 0x0, symName: '___34-[ClipboardSync scheduleReconnect]_block_invoke', symObjAddr: 0x1350, symBinAddr: 0x5638, symSize: 0x84 }
+  - { offset: 0x1D47, size: 0x8, addend: 0x0, symName: '-[ClipboardSync sendClipboard:]', symObjAddr: 0x13D4, symBinAddr: 0x56BC, symSize: 0x1F0 }
+  - { offset: 0x1DB2, size: 0x8, addend: 0x0, symName: '-[ClipboardSync sendPing]', symObjAddr: 0x15C4, symBinAddr: 0x58AC, symSize: 0x60 }
+  - { offset: 0x1DE4, size: 0x8, addend: 0x0, symName: '-[ClipboardSync flushOutput]', symObjAddr: 0x1624, symBinAddr: 0x590C, symSize: 0x214 }
+  - { offset: 0x1E32, size: 0x8, addend: 0x0, symName: '-[ClipboardSync stream:handleEvent:]', symObjAddr: 0x1838, symBinAddr: 0x5B20, symSize: 0x198 }
+  - { offset: 0x1EDA, size: 0x8, addend: 0x0, symName: '-[ClipboardSync handleIncomingData]', symObjAddr: 0x19D0, symBinAddr: 0x5CB8, symSize: 0x290 }
+  - { offset: 0x1F9E, size: 0x8, addend: 0x0, symName: '-[ClipboardSync processMessage:]', symObjAddr: 0x1C60, symBinAddr: 0x5F48, symSize: 0x290 }
+  - { offset: 0x2048, size: 0x8, addend: 0x0, symName: '___32-[ClipboardSync processMessage:]_block_invoke', symObjAddr: 0x1EF0, symBinAddr: 0x61D8, symSize: 0x94 }
+  - { offset: 0x209A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x1F84, symBinAddr: 0x626C, symSize: 0x5C }
+  - { offset: 0x20BE, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x1FE0, symBinAddr: 0x62C8, symSize: 0x48 }
+  - { offset: 0x20DA, size: 0x8, addend: 0x0, symName: '-[ClipboardSync isSettingFromNetwork]', symObjAddr: 0x2028, symBinAddr: 0x6310, symSize: 0x20 }
+  - { offset: 0x2110, size: 0x8, addend: 0x0, symName: '-[ClipboardSync setIsSettingFromNetwork:]', symObjAddr: 0x2048, symBinAddr: 0x6330, symSize: 0x28 }
+  - { offset: 0x214E, size: 0x8, addend: 0x0, symName: '-[ClipboardSync networkThread]', symObjAddr: 0x2070, symBinAddr: 0x6358, symSize: 0x1C }
+  - { offset: 0x2184, size: 0x8, addend: 0x0, symName: '-[ClipboardSync setNetworkThread:]', symObjAddr: 0x208C, symBinAddr: 0x6374, symSize: 0x38 }
+  - { offset: 0x21C2, size: 0x8, addend: 0x0, symName: '-[ClipboardSync shouldReconnect]', symObjAddr: 0x20C4, symBinAddr: 0x63AC, symSize: 0x20 }
+  - { offset: 0x21F8, size: 0x8, addend: 0x0, symName: '-[ClipboardSync setShouldReconnect:]', symObjAddr: 0x20E4, symBinAddr: 0x63CC, symSize: 0x28 }
+  - { offset: 0x2236, size: 0x8, addend: 0x0, symName: '-[ClipboardSync receiveBuffer]', symObjAddr: 0x210C, symBinAddr: 0x63F4, symSize: 0x1C }
+  - { offset: 0x226C, size: 0x8, addend: 0x0, symName: '-[ClipboardSync setReceiveBuffer:]', symObjAddr: 0x2128, symBinAddr: 0x6410, symSize: 0x38 }
+  - { offset: 0x22AA, size: 0x8, addend: 0x0, symName: '-[ClipboardSync inputStream]', symObjAddr: 0x2160, symBinAddr: 0x6448, symSize: 0x1C }
+  - { offset: 0x22E0, size: 0x8, addend: 0x0, symName: '-[ClipboardSync setInputStream:]', symObjAddr: 0x217C, symBinAddr: 0x6464, symSize: 0x38 }
+  - { offset: 0x231E, size: 0x8, addend: 0x0, symName: '-[ClipboardSync outputStream]', symObjAddr: 0x21B4, symBinAddr: 0x649C, symSize: 0x1C }
+  - { offset: 0x2354, size: 0x8, addend: 0x0, symName: '-[ClipboardSync setOutputStream:]', symObjAddr: 0x21D0, symBinAddr: 0x64B8, symSize: 0x38 }
+  - { offset: 0x2392, size: 0x8, addend: 0x0, symName: '-[ClipboardSync connected]', symObjAddr: 0x2208, symBinAddr: 0x64F0, symSize: 0x20 }
+  - { offset: 0x23C8, size: 0x8, addend: 0x0, symName: '-[ClipboardSync setConnected:]', symObjAddr: 0x2228, symBinAddr: 0x6510, symSize: 0x28 }
+  - { offset: 0x2406, size: 0x8, addend: 0x0, symName: '-[ClipboardSync pendingMessage]', symObjAddr: 0x2250, symBinAddr: 0x6538, symSize: 0x1C }
+  - { offset: 0x243C, size: 0x8, addend: 0x0, symName: '-[ClipboardSync setPendingMessage:]', symObjAddr: 0x226C, symBinAddr: 0x6554, symSize: 0x3C }
+  - { offset: 0x247A, size: 0x8, addend: 0x0, symName: '-[ClipboardSync .cxx_destruct]', symObjAddr: 0x22A8, symBinAddr: 0x6590, symSize: 0x7C }
+...

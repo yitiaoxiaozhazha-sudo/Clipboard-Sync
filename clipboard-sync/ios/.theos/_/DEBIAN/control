@@ -1,0 +1,10 @@
+Package: com.yourcompany.clipboardsync
+Name: ClipboardSync
+Description: Sync clipboard between iOS and PC over LAN
+Maintainer: Your Name <your.email@example.com>
+Author: Your Name <your.email@example.com>
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Version: 1.0.0-6+debug
+Installed-Size: 396
